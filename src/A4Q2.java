@@ -23,13 +23,18 @@ public class A4Q2 {
    //convert cm into inch 
         System.out.println("Please convert cm into inches ");
         System.out.println("Please enter number you want to convert: ");
-        int userNumber = input.nextInt();
+        double userNumber = input.nextDouble();
         
         //2.54 cm is exactly 1 inch 
-        double inch = input.nextDouble();
-        double cm 
+        double inchesConvertion = 2.54;
+       
+        double cmConvertion = inchesConvertion * userNumber;
         
-        //
+        //correct conversiom
+        System.out.println("Convertion for " + userNumber + "inches to cm is: " + cmConvertion);
+        
+        
+        
         
         
     }
